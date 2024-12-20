@@ -1,0 +1,64 @@
+@charset "UTF-8";
+  body {
+            height: 100px;
+            padding-top: 70px;
+            background-color: gray;
+        }
+        .card {
+            width: 200px;
+            height:230px;
+            background-color: white;
+            border: none !important;
+            box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                        inset 4px 4px 10px cornsilk;
+            border-radius: 15px !important;
+            overflow: hidden;
+            margin: 30px 50px;
+        }
+        img {
+            width: 170px;
+            height: 140px;
+        }
+        h5 {
+            font-size: 17px;
+            font-weight: bold;
+        }
+        p {
+            font-weight: 500;
+        }
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: .5rem 5rem;
+            box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+        }
+        #n-b {
+            color: green;
+            font-weight: 800;
+            font-family: cursive;
+            font-size: 30px;
+            text-align: center;
+            align-content: center;
+        }
+        #cos {
+            font-size: 1px;
+            margin: 0 140px;
+            font-family: fantasy;
+            color: blue;
+            font-size: 10px;
+        }
+        #cos li a {       
+    color:silver;
+    border-bottom:3px solid transparent;
+    font-size:18px;
+    font-family:initial;
+    font-weight:bold;
+        }
+        #cos a:hover {
+            border-bottom: 3px solid white;
+            border-color: green;
+            border-radius:5px 5px 5px 5px;
+        }
